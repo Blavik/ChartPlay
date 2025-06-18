@@ -162,4 +162,4 @@ Inspired by the musical clarity of Rock Band and the educational value of real-t
 Special thanks to open-source tools like librosa, Pygame, and Spleeter.
 
 ## 🔗 Stay tuned
-github.com//Blavik/ChartPlay
+[github.com/Blavik/ChartPlay/tree/main](https://github.com/Blavik/ChartPlay/tree/main)
