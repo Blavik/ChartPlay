@@ -39,6 +39,8 @@ A JSON-based structure designed for speed, clarity, and cross-platform compatibi
 ```
 💡 Future updates will include multi-instrument layers, advanced note styles, and MIDI mapping.
 
+---
+
 ## 🧰 Project Structure
 ```bash
 Copy
@@ -51,6 +53,8 @@ ChartPlay/
 ├── songs/               # Sample charts and audio
 └── README.md
 ```
+
+---
 
 ## 📦 Getting Started
 🖥️ Editor (PC/Linux)
@@ -94,6 +98,8 @@ python3 player.py path/to/song.cplay
 ```
 You can also configure player.py to auto-launch on boot for a kiosk-style setup.
 
+---
+
 ## 🛠️ Tools
 audio_analyzer.py: Extracts transient hits from .wav or .mp3
 
@@ -108,6 +114,8 @@ Optional stem separation via Spleeter or Demucs
 | IEM or headphones    | Low-latency monitoring              |
 | GPIO buttons (opt.)  | For hands-free chart control        |
 
+---
+
 ## 🧪 Roadmap
  Add full MIDI support for real-time input
 
@@ -119,6 +127,8 @@ Optional stem separation via Spleeter or Demucs
 
  Custom controller support (USB/MIDI pads)
 
+---
+
 ## 🤝 Contributing
 We welcome contributions! Feel free to:
 
@@ -127,6 +137,8 @@ Submit issues or feature requests
 Fork the repo and submit a pull request
 
 Join development discussions
+
+---
 
 ## 🧱 Development Stack
 Python (editor, analyzer, player)
@@ -137,9 +149,13 @@ Pygame / WebGL (visualizer)
 
 JSON-based .cplay format
 
+---
+
 ## 📜 License
 ChartPlay is licensed under the MIT License.
 See LICENSE for more details.
+
+---
 
 ## 🎓 Credits & Inspiration
 Inspired by the musical clarity of Rock Band and the educational value of real-time musical feedback systems.
