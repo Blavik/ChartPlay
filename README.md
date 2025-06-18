@@ -36,10 +36,11 @@ A JSON-based structure designed for speed, clarity, and cross-platform compatibi
     ]
   }
 }
+```
 💡 Future updates will include multi-instrument layers, advanced note styles, and MIDI mapping.
 
-🧰 Project Structure
-bash
+## 🧰 Project Structure
+```bash
 Copy
 Edit
 ChartPlay/
@@ -49,57 +50,65 @@ ChartPlay/
 ├── formats/             # File format specs and docs
 ├── songs/               # Sample charts and audio
 └── README.md
-📦 Getting Started
+```
+
+## 📦 Getting Started
 🖥️ Editor (PC/Linux)
 Clone the repo:
 
-bash
+```bash
 Copy
 Edit
 git clone https://github.com/ChartPlay/ChartPlay.git
 cd ChartPlay/editor
+```
 Install dependencies:
 
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt  # or npm install if Electron
+```
 Run the editor:
 
-bash
+```bash
 Copy
 Edit
 python main.py
 🐍 Playback (Raspberry Pi)
+```
 Install required packages:
 
-bash
+```bash
 Copy
 Edit
 sudo apt install python3-pygame python3-numpy
+```
 Run the player:
 
-bash
+```bash
 Copy
 Edit
 cd ChartPlay/player
 python3 player.py path/to/song.cplay
+```
 You can also configure player.py to auto-launch on boot for a kiosk-style setup.
 
-🛠️ Tools
+## 🛠️ Tools
 audio_analyzer.py: Extracts transient hits from .wav or .mp3
 
 Optional stem separation via Spleeter or Demucs
 
-🖲️ Recommended Hardware
-Device	Description
-Raspberry Pi 4/5	Visualizer engine
-HDMI display	Scroll-based note highway
-USB mouse	Control menu / start & stop playback
-IEM or headphones	Low-latency monitoring
-Optional GPIO buttons	For hands-free chart control
+## 🖲️ Recommended Hardware
+| Device               | Description                          |
+|----------------------|--------------------------------------|
+| Raspberry Pi 4/5     | Visualizer engine                   |
+| HDMI display         | Scroll-based note highway           |
+| USB mouse            | Control menu / start & stop playback |
+| IEM or headphones    | Low-latency monitoring              |
+| GPIO buttons (opt.)  | For hands-free chart control        |
 
-🧪 Roadmap
+## 🧪 Roadmap
  Add full MIDI support for real-time input
 
  Web-based editor (React + Tone.js)
@@ -110,7 +119,7 @@ Optional GPIO buttons	For hands-free chart control
 
  Custom controller support (USB/MIDI pads)
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome contributions! Feel free to:
 
 Submit issues or feature requests
@@ -119,7 +128,7 @@ Fork the repo and submit a pull request
 
 Join development discussions
 
-Development Stack
+## 🧱 Development Stack
 Python (editor, analyzer, player)
 
 Qt / Electron (UI)
@@ -128,12 +137,13 @@ Pygame / WebGL (visualizer)
 
 JSON-based .cplay format
 
-📜 License
+## 📜 License
 ChartPlay is licensed under the MIT License.
 See LICENSE for more details.
 
-🎓 Credits & Inspiration
+## 🎓 Credits & Inspiration
 Inspired by the musical clarity of Rock Band and the educational value of real-time musical feedback systems.
 Special thanks to open-source tools like librosa, Pygame, and Spleeter.
 
-🔗 Stay tuned at github.com/ChartPlay
+## 🔗 Stay tuned
+github.com//Blavik/ChartPlay
